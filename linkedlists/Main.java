@@ -19,5 +19,19 @@ public class Main {
         System.out.println("Size of the list: " + list.size());
 
 
+    
     }
+}
+
+
+// Linear Cost  
+public static void printList(List<String> list) {
+    for (String item : list) {
+        System.out.println(item);
+    }
+}
+
+// Constant Cost   
+public static void printElement(String element) {
+    System.out.println(element);
 }

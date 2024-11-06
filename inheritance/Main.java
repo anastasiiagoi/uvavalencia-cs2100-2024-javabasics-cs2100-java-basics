@@ -14,9 +14,13 @@ public class Main {
         SpanishDate spanishDate1 = new SpanishDate(1, 2, 2020);
         SpanishDate spanishDate2 = new SpanishDate("1", "2", "2020");
         SpanishDate spanishDate3 = new SpanishDate("1/3/2021");
+        SpanishDate spanish2 = new SimpleDate(null);
+        SimpleDate spanish1 = new SpanishDate(null);
+
         System.out.println("SpanishDate1: " + spanishDate1);
         System.out.println("SpanishDate2: " + spanishDate2);
         System.out.println("SpanishDate3: " + spanishDate3);
+       
 
         if (simpleDate1 == spanishDate1) {
             System.out.println("SimpleDate1 and SpanishDate1 pointers are equal");
